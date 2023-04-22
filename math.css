@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;   
+}
+.toancoban,.stron,.shcn{
+    margin: 1% 5%;
+}
+
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Học Về Java Script</title>
+    <link rel="stylesheet" href="math.css">
+</head>
+<body>
+     <!-- int line
+    <button onclick="alert('Helle Everyone!')">Hello</button>
+
+    nội tuyến
+    <button onclick="cong(10,20.5)">Cộng hai số</button>
+    <script>
+        function cong(a,b){
+            let s=a+b;
+            alert("Tổng là: "+ s) ;
+        }
+    </script>
+
+    ngoại tuyến 
+    <button onclick="stron(10)">Diện tích hình tròn</button>
+    <button onclick="cchunhat(10,20)">Chu vi hình chữ nhật</button>
+    <p id="ketqua"></p> -->
+
+    
+    <div class="container">
+        <div class="toancoban">
+            <div>
+                <label for="num1">Number1</label>
+                <input type="number" id="num1">
+            </div>
+            <div>
+                <label for="num2">Number2</label>
+                <input type="number" id="num2">
+            </div>
+            <div>
+                <button onclick="cong()">Cộng</button>
+                <button onclick="tru()">Trừ</button>
+                <button onclick="nhan()">Nhân</button>
+                <button onclick="chia()">Chia</button>
+                <p id="result"></p>
+            </div>
+        </div>
+        <div class="stron">
+            <div>
+                <label for="bankinh">Bán Kính</label>
+                <input type="number" id="bankinh">
+            </div>
+            <div>
+                <button onclick="Shinhtron()">Diện tích hình tròn</button>
+                <p id="cricle"></p>
+            </div>
+        </div>
+    
+        <div class="shcn">
+            <div>
+                <label for="dai">Chiều dài</label>
+                <input type="number" id="dai">
+            </div>
+            <div>
+                <label for="rong">Chiều rộng</label>
+                <input type="number" id="rong">
+            </div>
+            <div>
+                <button onclick="Shinhchunhat()">Diện tích hình chữ nhật</button>
+                <p id="chunhat"></p>
+            </div>
+        </div>
+    </div >
+
+
+    <script src="math.js"></script>
+</body>
+</html>
